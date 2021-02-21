@@ -1,0 +1,30 @@
+body{
+    background-color: transparent;
+}
+
+nav a{
+    width: 350px;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+    border: 1px solid black;
+    text-align-last: center;
+    background-color: tomato;
+    border-radius: 5px;
+    align-items: baseline;
+    
+}
+nav a:hover{
+    opacity: 10;
+    color: blue;
+    background-color: white;
+    
+}
+
+Img{
+    padding: 1px;
+    align-items: center;
+
+}
+
