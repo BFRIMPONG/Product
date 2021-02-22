@@ -1,24 +1,69 @@
 body{
-    background-color: transparent;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    
+
+}
+
+h1{
+    color: blue;
+    font-size: xx-large;
+}
+
+
+
+#me{
+    padding: 10px;
+    margin: 10px auto;
+    width: 200px;
+    border: 1px solid black;
+
+    
+
 }
 
 nav a{
     width: 350px;
-    font-size: 14px;
+    margin: 500px auto;
+    font-size: 20px;
     text-decoration: none;
     padding: 10px;
-    color:white;
-    border: 1px solid black;
-    text-align-last: center;
-    background-color: tomato;
-    border-radius: 5px;
-    align-items: baseline;
+    color:black;
+    
+    align-items: center;
     
 }
 nav a:hover{
     opacity: 10;
     color: blue;
     background-color: white;
+}
+
+#find{
+    padding: 10px;
+    color: greenyellow;
+    margin: auto;
+}
+
+#table1 a{
+
+    margin: 10px;
+
+}
+
+#table2 {
+    width: 10px auto;
+}
+
+#table2 a{
+    margin: auto;
+    width: 10px;
+    height: fit-content;
+}
+
+
     
 }
 
@@ -27,4 +72,45 @@ Img{
     align-items: center;
 
 }
+
+#shop {
+    width: 150px;
+    background: blue;
+    color: #101010;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+shop {
+  
+    margin-left: 50px;
+    width: 60px;
+}
+
+#shop:hover{
+    color: white;
+    background-color: black;
+
+}
+
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+    /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
